@@ -52,15 +52,6 @@
 	font-family: 'Lobster', cursive;
 }
 
-.container {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	overflow: auto;
-	white-space: nowrap;
-  }
-  
-  .card {
-	flex-basis: 18rem;
-	margin: 0 1rem;
-  }
-  
+.col {
+	margin-bottom: 40px;
+}
